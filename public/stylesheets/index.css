@@ -1,0 +1,200 @@
+#projects {
+  background-image: url('../images/pcb.png') ;
+  overflow: hidden;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center center;
+
+  color:white;
+}
+.availability-ribbon{
+  position: fixed;
+  right: 0px;
+  height: 150px;
+  z-index: 999;
+
+}
+#experience {
+  background-color:#eee;
+  color:#333;
+}
+#recommendations {
+  background-color:#ddd;
+  color:#333;
+}
+.recommendation {
+    background-image: url('../images/flashcard.png') ;
+  background-size: cover;
+
+
+}
+#projects h3 {
+  text-align:center;
+}
+.project {
+  background-color:white;
+  width:80px;
+  height:80px;
+  margin-bottom:20px;
+  overflow:hidden;
+  margin-left:35%;
+}
+.project a {
+  margin: 8px 8px;
+}
+.circular {
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+  }
+
+.coconauts-logo{
+    padding:10%;
+        width:100%;
+        max-width:300px;
+}
+
+#about-me p {
+    font-size:120%
+}
+#follow-up p {
+font-size:125%
+}
+.social {
+    padding:20px;
+}
+
+#main {
+
+  background-image: url('../images/photo.jpeg') ;
+   background-color: rgb(190, 188, 188);
+  overflow: hidden;
+  background-attachment: scroll;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding:50px;
+
+  /*background-size: cover;*/
+  background-size: 300px;
+  height: 200px;
+
+  color:#333;
+}
+.center {
+  float:center;
+  text-align:center;
+}
+
+#main .title {
+  font-size: 300%;
+}
+#main .subtitle {
+  font-size: 150%;
+}
+#main img {
+  width:150px;
+  margin-right:50px;
+}
+
+#menu{
+  width:100%;
+  padding:10px;
+ border:1px solid gray;
+ color:white;
+  position:relative;
+  background-color:#333;
+  z-index: 10;
+}
+
+#menu a {
+  padding-left: 20px;
+  text-decoration:none;
+  color:white;
+}
+#menu a:hover {
+  color:gray;
+}
+.menu-mobile p {
+    display:inline-block
+}
+#small-photo {
+    width:32px;
+    margin-right:20px;
+    display:inline-block;
+}
+
+.section {
+  padding:20px;
+}
+
+.right-text {
+  text-align:right
+}
+
+#cv { }
+.cv-file {
+    width:48px;
+    margin:16px;
+}
+
+#about-me {
+  
+  background-image: url('../images/world-blur.jpg') ;
+   overflow: hidden;
+   background-size: cover;
+   background-attachment: scroll;
+   background-position: center center;
+  /*text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   color:white;*/
+ }
+
+
+#code-showcase {
+  
+   background-image: url('../images/code.png') ;
+    overflow: hidden;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center center;
+  
+    color:white;
+  }
+#follow-up {
+
+ background-image: url('../images/links.png') ;
+ /* overflow: hidden;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: bottom center;*/
+  height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  color:white;
+}
+
+.post-link {
+    font-size: 150%;
+}
+
+#contact {
+  position:relative;
+  padding:10px;
+}
+
+
+/** blockquote styles **/
+.bq1 { padding-left: 16px; border-left: 5px solid #577da4; max-width: 700px; }
+.bq1 p { font-style: italic; font-size: 14px; line-height: 18px; color: #8c8785; }
+p.after { margin-left: 40px;  }
+p.after a { color: #6793d4; text-decoration: none; }
+p.after a:hover { text-decoration: underline; }
+
+/* Fix for labels on responsive devices*/
+.btn {
+  white-space: normal
+}

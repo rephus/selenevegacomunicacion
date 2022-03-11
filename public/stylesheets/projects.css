@@ -1,0 +1,99 @@
+table {  width:100%}
+.iconCell {
+    width:80px;
+}
+.status { 
+  
+    width:80px;
+    font-size:small;
+    padding:10px;
+}
+.year {
+    width:80px;
+    text-align:center;
+    color:gray;
+}
+.description p {
+    margin:0px ;
+}
+
+
+.border {
+    border:1px solid gray;
+    border-radius: 5px;
+}
+.center { text-align:center;}
+
+.projectProgress { 
+    height:300px;
+    background-image:url('../images/progress.png'), url('../images/progress_grid.png');
+    background-repeat:no-repeat, repeat-y;
+}
+.firstProgress{
+    width:100px;
+    padding-top:50px
+}
+
+.projectProgress td div { height:20px; background-color:green }
+
+[class*="project-"]  {
+  width:64px;
+  height:64px;
+  margin-left:10px;
+  display:inline-block;
+  background-image:url('projects.png') ;
+} 
+
+/* 1 ,2, 3  ,4  ,5  ,6  ,7
+ * 48,96,144,192,240,288,336 
+ * 64,128,192,256,320,384*/
+
+.project-coconauts{ background-position:0px 0px;}
+.project-astroship{ background-position:-64px 0px;}
+.project-turret-pi{ background-position:-128px 0px;}
+.project-watchduino{ background-position:-192px 0px;}
+
+.project-cleope{ background-position:0px -64px;}
+.project-screensaver{ background-position:-64px -64px;}
+.project-gramola{ background-position:-128px -64px;}
+.project-bookmark{ background-position:-192px -64px;}
+
+.project-photo{ background-position:0px -128px;}
+.project-game-manager{ background-position:-64px -128px;}
+.project-game-stats{ background-position:-128px -128px;}
+.project-game-template{ background-position:-192px -128px;}
+
+.project-interventores{ background-position:0px -192px;}
+.project-sea-evolution{ background-position:-64px -192px;}
+.project-water-rings{ background-position:-128px -192px;}
+.project-water-rings2{ background-position:-192px -192px;}
+
+.project-dynamus{ background-position:0px -256px;}
+.project-piano-legend{ background-position:-64px -256px;}
+.project-spend{ background-position:-128px -256px;}
+.project-watchduino2{ background-position:-192px -256px;}
+
+.project-timebomb{ background-position:0px -320px;}
+.project-timebomb2{ background-position:-128px -320px;}
+
+.project-blog{ background-position:0px -384px;}
+.project-octopress{ background-position:-64px -384px;}
+.project-hardware{ background-position:-128px -384px;}
+
+.project-starcraft-unity3d{ background-position:-64px -448px;}
+.project-retrophies{ background-position:-192px -448px;}
+
+
+.title{font-weight:bold;}
+.gray{color:gray;}
+
+.in-progress { color:green;}
+.deprecated { color:red;}
+.released {color:blue;}
+
+.category p {
+    font-weight:bold;
+    display:inline-block;
+    vertical-align:text-bottom;
+    margin-right:10px;
+}
